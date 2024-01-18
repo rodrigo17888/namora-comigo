@@ -25,6 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
     videoElement.src = "videos/olhar-sedutor.mp4";
     videoElement.autoplay = true;
     videoElement.loop = true;
+    videoElement.controls = true;
+    videoElement.style.marginTop = "40px";
     videoElement.style.width = "300px";
 
     // Substituir a imagem pelo vídeo
