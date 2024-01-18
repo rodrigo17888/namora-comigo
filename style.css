@@ -44,8 +44,9 @@ button {
 
 @media screen and (max-width: 768px) {
   .painel {
-    width: 300px;
-    margin-top: 50px;
+    width: 350px;
+    height: 500px;
+    margin-top: 70px;
   }
 
   img {
