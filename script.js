@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const btn2 = document.querySelector("#nao");
   btnAceito.addEventListener("click", function () {
     h2.innerHTML = "Parabéns, você fez uma ótima escolha !";
-    h2.style.marginTop = "70px";
-    h2.style.fontSize = "16px";
+    h2.style.marginTop = "50px";
+    h2.style.fontSize = "18px";
     btn1.style.display = "none";
     btn2.style.display = "none";
   });
@@ -23,8 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Configurar atributos do vídeo (src, controls, etc.)
     videoElement.src = "videos/olhar-sedutor.mp4";
-    videoElement.autoplay = true;
-    videoElement.loop = true;
     videoElement.controls = true;
     videoElement.style.marginTop = "40px";
     videoElement.style.width = "300px";
