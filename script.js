@@ -15,5 +15,5 @@ function fuja() {
 }
 
 function aceito() {
-  alert("Parabén você fez uma ótima escolha hehehe !!!");
+  alert("Parabéns, você fez uma ótima escolha hehehe !!!");
 }
