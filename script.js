@@ -5,13 +5,15 @@ document.addEventListener("DOMContentLoaded", function () {
   // Encontrar o botão pelo ID
   var btnAceito = document.getElementById("sim");
 
+  const h1 = document.querySelector("h1");
   const h2 = document.querySelector(".pergunta");
   const btn1 = document.querySelector("#sim");
   const btn2 = document.querySelector("#nao");
   btnAceito.addEventListener("click", function () {
-    h2.innerHTML = "Parabéns, você fez uma ótima escolha !";
+    h1.innerHTML = "Aceitouuuu!";
+    h2.innerHTML = "Você não vai se arrepender !";
     h2.style.marginTop = "50px";
-    h2.style.fontSize = "18px";
+    h2.style.fontSize = "20px";
     btn1.style.display = "none";
     btn2.style.display = "none";
   });
